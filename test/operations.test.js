@@ -1,4 +1,6 @@
-const assert = require('assert');
+// const assert = require('assert');
+// ==================================
+const {assert} = require('chai')
 
 const {multiply, asyncSumm} = require('../operations');
 
