@@ -14,6 +14,6 @@ COPY . .
 
 RUN npm install
 
-EXPOSE 5500
+EXPOSE $SERVER_PORT
 
 CMD npm start
