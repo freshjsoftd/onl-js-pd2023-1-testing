@@ -12,7 +12,9 @@ WORKDIR /server
 
 COPY . .
 
-RUN npm install
+# RUN npm install
+
+RUN ["npm", "install"]
 
 EXPOSE $SERVER_PORT
 
