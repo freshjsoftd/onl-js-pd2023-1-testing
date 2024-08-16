@@ -12,6 +12,14 @@ describe('Math operations tests', () => {
     assert.equal(result, expected, `${result} not equal ${expected}`);
   });
 
+  // it('should multiply be equal expected', () => {
+  //   const expected = 20;
+  //   const result = multiply(3, 7);
+  //   if(result !==  expected) {
+  //     throw new Error(`We expected ${expected} but got the ${result}`)
+  //   }
+  // });
+
   it('should async summ 2 numbers', (done) => {
     const expected = 20;
     asyncSumm(12, 8, (result) => {
