@@ -12,10 +12,12 @@ WORKDIR /server
 
 COPY . .
 
-# RUN npm install
-
 RUN ["npm", "install"]
+
+# RUN npm install
 
 EXPOSE $SERVER_PORT
 
 CMD npm start
+
+# CMD ["npm", "start"]

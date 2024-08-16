@@ -1,8 +1,8 @@
 started_at=$(date +"%s")
 
-docker build --build-arg SERVER_PORT=5500 -t onl-js-pd2023-1-docker:v.2.0 .
+docker build --build-arg SERVER_PORT=5500 -t onl-js-pd2023-2-docker:v.2.0 .
 
-docker run -it onl-js-pd2023-1-docker:v.2.0
+docker run -it onl-js-pd2023-2-docker:v.2.0
 
 ended_at=$(date +"%s")
 
