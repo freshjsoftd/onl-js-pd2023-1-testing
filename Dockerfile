@@ -18,6 +18,10 @@ RUN ["npm", "install"]
 
 EXPOSE $SERVER_PORT
 
-CMD npm start
+ENTRYPOINT ["echo"]
+
+CMD ["Hi"]
+
+# CMD npm start
 
 # CMD ["npm", "start"]
